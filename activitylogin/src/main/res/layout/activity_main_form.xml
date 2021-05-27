@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.kharisma.studio.activitylogin.MainForm">
+
+    <TextView
+        android:text="Welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="Selamat Datang, Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:id="@+id/textView2"
+        android:textSize="39dp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="LogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:id="@+id/btnLogOut" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_below="@+id/btnLogOut"
+        android:id="@+id/btnExit" />
+</RelativeLayout>
